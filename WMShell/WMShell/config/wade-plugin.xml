@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <action name="JN_Test" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_ShowMessage" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Quit" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Sharing" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_OpenDocument" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_CheckVersion" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_VersionNumber" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_ShowLoading" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_DismissLoading" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_SetValueWithKey" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_GetValueWithKey" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Fingerprint" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_JSONObj" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Photograph" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_SelectPhoto" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_SMS" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Email" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Brower" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Telephone" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_TakeCertificate" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_QRcode" class="AIWKWebViewBasePlugin"></action>
+</plugins>

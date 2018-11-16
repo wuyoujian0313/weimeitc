@@ -1,0 +1,4 @@
+#Fri Nov 16 21:33:00 CST 2018
+base.0=/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/transforms/dex/wmshell/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/transforms/dex/wmshell/release/folders/1000/1f/main/classes.dex

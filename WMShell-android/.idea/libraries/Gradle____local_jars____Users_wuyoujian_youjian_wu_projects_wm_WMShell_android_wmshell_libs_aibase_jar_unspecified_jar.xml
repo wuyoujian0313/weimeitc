@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/libs/aibase.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wmshell/libs/aibase.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

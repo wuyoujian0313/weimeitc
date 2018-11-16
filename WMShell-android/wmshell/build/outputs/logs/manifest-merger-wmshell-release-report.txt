@@ -1,0 +1,192 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:1:1-64:12
+	package
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:2:11-41
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:4:22-64
+uses-permission#com.asiainfo.cm10085.IDENTITY_AUTHENTICATION
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:5:5-84
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:5:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:11:22-68
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:16:22-71
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:17:19-67
+uses-feature#android.hardware.camera
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:18:5-60
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:18:19-57
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:19:22-75
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:20:22-76
+application
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:22:5-60:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/wuyoujian/.android/build-cache/c420a65b96634374fe7806627523f6123c621d3a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/wuyoujian/.android/build-cache/a667ff868ea9027d0adf19abe791dab9d101fa0b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/wuyoujian/.android/build-cache/99a87b6283599998698d020ea1b73d37dfa3a8ba/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/wuyoujian/.android/build-cache/18ed6d3b466669672cc7dcc2d2e680c4f80f4f9a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/wuyoujian/.android/build-cache/8533a072097a5fc9fa7df8feef4d164836cefeca/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/wuyoujian/.android/build-cache/3a4b823b391795ced42c890254cf3af0281131b9/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/wuyoujian/.android/build-cache/d744ca521dfa98fb9ad07853d2b9c55b419d9622/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/wuyoujian/.android/build-cache/b9be40399657f30db0eab2c90358d583ebd52fcd/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:25:9-41
+	android:supportsRtl
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:26:9-35
+	android:hardwareAccelerated
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:23:9-36
+	android:icon
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:24:9-43
+	android:theme
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:28:9-40
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:30:9-38:20
+	android:authorities
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:32:13-64
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:34:13-47
+	android:exported
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:31:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:35:13-37:53
+	android:resource
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:37:17-51
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:36:17-67
+activity#com.weimeitc.wmshell.EnterActivity
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:39:9-48:20
+	android:screenOrientation
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:41:13-49
+	android:theme
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:42:13-47
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:40:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:44:17-68
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:46:27-74
+activity#com.ai.webplugin.AIWebViewActivity
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:50:9-58:20
+	android:screenOrientation
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:52:13-49
+	android:theme
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:53:13-44
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:51:13-62
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:54:13-57:29
+action#android.intent.action.VIEW
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:55:17-68
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:55:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:56:17-75
+	android:name
+		ADDED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml:56:27-73
+uses-sdk
+INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/wuyoujian/.android/build-cache/c420a65b96634374fe7806627523f6123c621d3a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/wuyoujian/.android/build-cache/a667ff868ea9027d0adf19abe791dab9d101fa0b/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/wuyoujian/.android/build-cache/99a87b6283599998698d020ea1b73d37dfa3a8ba/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/wuyoujian/.android/build-cache/18ed6d3b466669672cc7dcc2d2e680c4f80f4f9a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/wuyoujian/.android/build-cache/8533a072097a5fc9fa7df8feef4d164836cefeca/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/wuyoujian/.android/build-cache/3a4b823b391795ced42c890254cf3af0281131b9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/wuyoujian/.android/build-cache/d744ca521dfa98fb9ad07853d2b9c55b419d9622/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/wuyoujian/.android/build-cache/b9be40399657f30db0eab2c90358d583ebd52fcd/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/wuyoujian/.android/build-cache/c420a65b96634374fe7806627523f6123c621d3a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/wuyoujian/.android/build-cache/a667ff868ea9027d0adf19abe791dab9d101fa0b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/wuyoujian/.android/build-cache/99a87b6283599998698d020ea1b73d37dfa3a8ba/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/wuyoujian/.android/build-cache/18ed6d3b466669672cc7dcc2d2e680c4f80f4f9a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/wuyoujian/.android/build-cache/8533a072097a5fc9fa7df8feef4d164836cefeca/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/wuyoujian/.android/build-cache/3a4b823b391795ced42c890254cf3af0281131b9/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/wuyoujian/.android/build-cache/d744ca521dfa98fb9ad07853d2b9c55b419d9622/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/wuyoujian/.android/build-cache/b9be40399657f30db0eab2c90358d583ebd52fcd/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/AndroidManifest.xml:26:9-47

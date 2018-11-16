@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/mipmap-xxhdpi/startpage.png",
+        "source": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/src/main/res/mipmap-xxhdpi/startpage.png"
+    }
+]

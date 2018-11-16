@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/wuyoujian/youjian.wu/projects/wm/WMShell-android/wmshell/build/intermediates/res/merged/wmshell/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/wuyoujian/.android/build-cache/7179fe2df42d6c271ea5b9df9c9d429fe918bd45/output/res/color-v23/abc_tint_switch_thumb.xml"
+    }
+]
