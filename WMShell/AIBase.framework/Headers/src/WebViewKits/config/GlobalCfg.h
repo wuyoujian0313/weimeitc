@@ -20,6 +20,8 @@
 @property(nonatomic,copy,readonly) NSString* _Nullable CONFIG_FIELD_VERSIONURL;
 @property(nonatomic,copy,readonly) NSString* _Nullable CONFIG_FIELD_USERAGENT;
 @property(nonatomic,copy,readonly) NSString* _Nullable CONFIG_FIELD_APPNAME;
+@property(nonatomic,copy,readonly) NSString* _Nullable CONFIG_FIELD_CACHE;
+@property(nonatomic,copy,readonly) NSString* _Nullable CONFIG_FIELD_DEBUG;
 
 
 AISINGLETON_CLASS_DEF(GlobalCfg,SharedObj);

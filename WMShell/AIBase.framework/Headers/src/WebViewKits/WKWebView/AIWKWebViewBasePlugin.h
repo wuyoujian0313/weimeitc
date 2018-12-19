@@ -85,4 +85,7 @@
 // 扫码
 - (void)JN_QRcode;
 
+//
+- (void)JN_ClearAllResCache;
+
 @end

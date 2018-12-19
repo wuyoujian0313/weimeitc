@@ -22,4 +22,5 @@
     <action name="JN_Photograph" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
     <action name="JN_TakeCertificate" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
     <action name="JN_QRcode" class="com.weimeitc.wmshell.AIWebViewExtendPlugin"></action>
+    <action name="JN_ClearAllResCache" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
 </plugins>

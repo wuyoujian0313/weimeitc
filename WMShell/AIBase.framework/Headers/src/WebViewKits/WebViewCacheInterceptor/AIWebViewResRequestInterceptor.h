@@ -24,6 +24,7 @@
 @interface AIWebViewResRequestInterceptor : NSURLProtocol
 + (void)registerInterceptor:(AIInterceptorBuilder *)builder;
 + (void)unregisterInterceptor;
++ (BOOL)clearCache;
 @end
 
 
