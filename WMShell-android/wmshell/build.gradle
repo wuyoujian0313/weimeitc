@@ -23,7 +23,7 @@ android {
     productFlavors {
         wmshell {
             applicationId "com.weimeitc.shell"
-            resValue "string", "app_name", "维美天成"
+            resValue "string", "app_name", "验收demo"
         }
     }
     lintOptions {
@@ -42,11 +42,12 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.squareup.okhttp3:okhttp:3.1.2'
     compile 'com.squareup.okio:okio:1.6.0'
+    compile 'cn.bingoogolapple:bga-qrcode-zbar:1.2.1'
     testCompile 'junit:junit:4.12'
 
 }
 
 // 引入打包脚本
-apply from: '../buildScript/copy.gradle'
+apply from: '../buildScript-adr/buildConfig.gradle'
 
-// 打包请在控制台中执行：./buildScript/build.sh
+// 打包请在控制台中执行：./buildScript-adr/build.sh

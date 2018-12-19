@@ -19,7 +19,7 @@
 // 调用JS API
 - (void)excuteJavascript:(NSString*_Nonnull)script completionHandler:(void (^ _Nullable)(_Nullable id, NSError * _Nullable error))completionHandler;
 
-// js匿名回调, actionName 即配置wade-plugin.xml中，action的name
+// js匿名回调, actionName 即配置modular-plugin-ios.xml中，action的name
 - (void)callback:(NSString *_Nonnull)actionName param:(NSString *_Nonnull)param;
 
 // 扩展原生能力接口

@@ -31,7 +31,7 @@
 
 - (void)popBack;
 
-- (void)checkUpdate:(NSString*)versionConfigUrl;
+- (void)checkVersion:(NSString*)versionConfigUrl;
 
 
 #pragma mark - 子类是实现

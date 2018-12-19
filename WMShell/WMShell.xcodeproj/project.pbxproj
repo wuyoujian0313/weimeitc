@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF6D3C5820A5C9A600E6FCCF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6D3C5720A5C9A600E6FCCF /* WebKit.framework */; };
 		AF84E1F220B72830005387B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1EE20B7282F005387B8 /* Default@2x.png */; };
 		AF84E1F320B72830005387B8 /* Default-667@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1EF20B72830005387B8 /* Default-667@2x.png */; };
 		AF84E1F420B72830005387B8 /* Default-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1F020B72830005387B8 /* Default-568@2x.png */; };
 		AF84E1F520B72830005387B8 /* Default-736@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1F120B72830005387B8 /* Default-736@3x.png */; };
 		AF96F77F2047A1E70097D273 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF96F77D2047A1E70097D273 /* InfoPlist.strings */; };
 		AFA056BE209ADE7400297470 /* global.properties in Resources */ = {isa = PBXBuildFile; fileRef = AFA056BD209ADE7400297470 /* global.properties */; };
-		AFAAD3DC20AEE9010024CC68 /* wade-plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = AFAAD3DB20AEE9010024CC68 /* wade-plugin.xml */; };
+		AFB70F6021C9DB67006753C3 /* modular-plugin-iOS.xml in Resources */ = {isa = PBXBuildFile; fileRef = AFB70F5E21C9DB67006753C3 /* modular-plugin-iOS.xml */; };
+		AFB70F6121C9DB67006753C3 /* Default-812@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB70F5F21C9DB67006753C3 /* Default-812@3x.png */; };
 		AFBF2BE820439E2500AEBD25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF2BE720439E2500AEBD25 /* AppDelegate.m */; };
 		AFBF2BF020439E2500AEBD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */; };
 		AFBF2BF620439E2500AEBD25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF2BF520439E2500AEBD25 /* main.m */; };
 		AFBF2C062043E69B00AEBD25 /* AIBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF2C052043E69B00AEBD25 /* AIBase.framework */; };
-		AFFCE7C2209A420800539D76 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFCE7C1209A420800539D76 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF6D3C5720A5C9A600E6FCCF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AF84E1EE20B7282F005387B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AF84E1EF20B72830005387B8 /* Default-667@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667@2x.png"; sourceTree = "<group>"; };
 		AF84E1F020B72830005387B8 /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568@2x.png"; sourceTree = "<group>"; };
@@ -32,14 +30,14 @@
 		AF96F77E2047A1E70097D273 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		AF96F7802047A1F30097D273 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFA056BD209ADE7400297470 /* global.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = global.properties; sourceTree = "<group>"; };
-		AFAAD3DB20AEE9010024CC68 /* wade-plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wade-plugin.xml"; sourceTree = "<group>"; };
+		AFB70F5E21C9DB67006753C3 /* modular-plugin-iOS.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "modular-plugin-iOS.xml"; sourceTree = "<group>"; };
+		AFB70F5F21C9DB67006753C3 /* Default-812@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-812@3x.png"; sourceTree = "<group>"; };
 		AFBF2BE320439E2500AEBD25 /* WMShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBF2BE620439E2500AEBD25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFBF2BE720439E2500AEBD25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBF2BF520439E2500AEBD25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFBF2C052043E69B00AEBD25 /* AIBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIBase.framework; sourceTree = "<group>"; };
-		AFFCE7C1209A420800539D76 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF6D3C5820A5C9A600E6FCCF /* WebKit.framework in Frameworks */,
-				AFFCE7C2209A420800539D76 /* CoreTelephony.framework in Frameworks */,
 				AFBF2C062043E69B00AEBD25 /* AIBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,11 +55,12 @@
 		AFA056BC209ADE7400297470 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				AFB70F5F21C9DB67006753C3 /* Default-812@3x.png */,
 				AF84E1F020B72830005387B8 /* Default-568@2x.png */,
 				AF84E1EF20B72830005387B8 /* Default-667@2x.png */,
 				AF84E1F120B72830005387B8 /* Default-736@3x.png */,
 				AF84E1EE20B7282F005387B8 /* Default@2x.png */,
-				AFAAD3DB20AEE9010024CC68 /* wade-plugin.xml */,
+				AFB70F5E21C9DB67006753C3 /* modular-plugin-iOS.xml */,
 				AFA056BD209ADE7400297470 /* global.properties */,
 			);
 			path = config;
@@ -104,8 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				AFBF2C052043E69B00AEBD25 /* AIBase.framework */,
-				AF6D3C5720A5C9A600E6FCCF /* WebKit.framework */,
-				AFFCE7C1209A420800539D76 /* CoreTelephony.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,10 +173,11 @@
 				AFBF2BF020439E2500AEBD25 /* Assets.xcassets in Resources */,
 				AF84E1F520B72830005387B8 /* Default-736@3x.png in Resources */,
 				AFA056BE209ADE7400297470 /* global.properties in Resources */,
+				AFB70F6121C9DB67006753C3 /* Default-812@3x.png in Resources */,
 				AF84E1F320B72830005387B8 /* Default-667@2x.png in Resources */,
+				AFB70F6021C9DB67006753C3 /* modular-plugin-iOS.xml in Resources */,
 				AF84E1F220B72830005387B8 /* Default@2x.png in Resources */,
 				AF96F77F2047A1E70097D273 /* InfoPlist.strings in Resources */,
-				AFAAD3DC20AEE9010024CC68 /* wade-plugin.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,10 +343,7 @@
 				INFOPLIST_FILE = WMShell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-Objc",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weimeitc.wmshell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b857a747-69b5-48d0-9720-b85ae851acb3";
@@ -376,10 +369,7 @@
 				INFOPLIST_FILE = WMShell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-Objc",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weimeitc.wmshell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b857a747-69b5-48d0-9720-b85ae851acb3";

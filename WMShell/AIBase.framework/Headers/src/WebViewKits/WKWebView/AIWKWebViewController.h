@@ -14,12 +14,10 @@
 @property (nonatomic,weak, nullable) id <WKNavigationDelegate,WKUIDelegate> delegate;
 @property (nonatomic,readonly, strong) WKWebView * _Nonnull wkWebView;
 
-// 注册WebView的http(s)的请求监听组件
-- (BOOL)registerURLProtocolClass:(Class _Nonnull )protocolClass;
-
-// 释放WebView的http(s)的请求监听组件
-- (void)unregisterURLProtocolClass:(Class _Nonnull )protocolClass;
-
+// 注册资源本地化插件
+- (void)registerCacheInterceptor;
+// 反注册资源本地化插件
+- (void)unregisterCacheInterceptor;
 // 刷新当前页面
 - (void)reload;
 // 后退

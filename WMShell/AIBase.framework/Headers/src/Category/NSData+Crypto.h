@@ -16,13 +16,9 @@
 - (NSData *)AES128EncryptWithKey:(NSString *)key gIv:(NSString *)Iv;   //加密
 - (NSData *)AES128DecryptWithKey:(NSString *)key gIv:(NSString *)Iv;   //解密
 
-// !!!!!!!!!! DES,key的长度是16位或者8位字符
-- (NSData *)DESEncryptedDataWithKey:(id)key error:(NSError **)error;
-- (NSData *)decryptedDESDataWithKey:(id)key error:(NSError **)error;
-
-- (NSData *)tripleDESEncryptedDataWithKey:(id)key error:(NSError **)error;
-- (NSData *)decryptedTripleDESDataWithKey:(id)key error:(NSError **)error;
-
+// !!!!!!!!!! DES,key是24位字符 Iv的长度是8位字符
+- (NSData *)DES3EncryptWithKey:(NSString *)key gIv:(NSString *)Iv;   //加密
+- (NSData *)DES3DecryptWithKey:(NSString *)key gIv:(NSString *)Iv;   //解密
 
 // md5加密
 - (NSString*)md5String;

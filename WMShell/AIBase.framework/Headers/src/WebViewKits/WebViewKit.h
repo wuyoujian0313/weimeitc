@@ -9,14 +9,14 @@
 #ifndef WebViewKit_h
 #define WebViewKit_h
 
-#import "AutoCacheURLProtocol.h"
-#import "LocCacheURLProtocol.h"
 #import "WebView/AIWebViewBasePlugin.h"
 #import "WebView/AIWebViewController.h"
 #import "WebView/AIWebViewPluginEngine.h"
 #import "WKWebView/AIWKWebViewBasePlugin.h"
 #import "WKWebView/AIWKWebViewController.h"
 #import "WKWebView/AIWKWebViewPluginEngine.h"
+#import "WebViewCacheInterceptor/AIWebViewResRequestInterceptor.h"
+#import "WebViewCacheInterceptor/AIResURLUtils.h"
 
 #import "config/AbstractCfg.h"
 #import "config/GlobalCfg.h"

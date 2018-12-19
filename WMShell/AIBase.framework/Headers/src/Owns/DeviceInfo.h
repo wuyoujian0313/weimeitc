@@ -81,5 +81,6 @@ typedef NS_ENUM(NSInteger ,DeviceInfo_Model) {
 + (BOOL)isiPhone;
 + (BOOL)isiPad;
 
++ (BOOL)isInstalledAppWithSchemes:(NSString *)schemes;
 
 @end
