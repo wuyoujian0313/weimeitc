@@ -27,7 +27,7 @@ task makeCopy(type: Copy) {
     //设置拷贝的文件
     from('build/outputs/apk/')
     //打进jar包后的文件目录
-    into('../buildScript/apk/')
+    into('../buildScript-adr/apk/')
     //（我们只关心apk文件）
     include('*.apk')
 }
