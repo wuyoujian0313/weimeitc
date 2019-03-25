@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.weimeitc.shell"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -43,7 +43,10 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.1.2'
     compile 'com.squareup.okio:okio:1.6.0'
     compile 'cn.bingoogolapple:bga-qrcode-zbar:1.2.1'
+
+    compile 'com.github.wuyoujian0313:aibase:1.0.3'
     testCompile 'junit:junit:4.12'
+
 
 }
 

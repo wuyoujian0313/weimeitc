@@ -22,4 +22,5 @@
     <action name="JN_TakeCertificate" class="AIWKWebViewBasePlugin"></action>
     <action name="JN_QRcode" class="AIWKWebViewBasePlugin"></action>
     <action name="JN_ClearAllResCache" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Play" class="ExtendWebViewPlugin"></action>
 </plugins>

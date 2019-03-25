@@ -19,7 +19,44 @@
 		AFBF2BF020439E2500AEBD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */; };
 		AFBF2BF620439E2500AEBD25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF2BF520439E2500AEBD25 /* main.m */; };
 		AFBF2C062043E69B00AEBD25 /* AIBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF2C052043E69B00AEBD25 /* AIBase.framework */; };
+		AFBF91972248A1E8007F2ED8 /* AliyunLanguageSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AFBF91932248A1E8007F2ED8 /* AliyunLanguageSource.bundle */; };
+		AFBF91992248A1E8007F2ED8 /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF91952248A1E8007F2ED8 /* AliyunPlayerSDK.framework */; };
+		AFBF919A2248A463007F2ED8 /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF91922248A1E8007F2ED8 /* AliThirdparty.framework */; };
+		AFBF919B2248A463007F2ED8 /* AliThirdparty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF91922248A1E8007F2ED8 /* AliThirdparty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFBF919C2248A463007F2ED8 /* AliyunVodPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF91942248A1E8007F2ED8 /* AliyunVodPlayerSDK.framework */; };
+		AFBF919D2248A463007F2ED8 /* AliyunVodPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF91942248A1E8007F2ED8 /* AliyunVodPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFBF919F2248A463007F2ED8 /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFBF91952248A1E8007F2ED8 /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFBF91A12248A475007F2ED8 /* AliyunLanguageSource.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = AFBF91932248A1E8007F2ED8 /* AliyunLanguageSource.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFBF91A52248A5F7007F2ED8 /* ExtendWebViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF91A42248A5F7007F2ED8 /* ExtendWebViewPlugin.m */; };
+		AFBF91A82248A8F2007F2ED8 /* VideoPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF91A72248A8F2007F2ED8 /* VideoPlayVC.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFBF91A02248A464007F2ED8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AFBF919D2248A463007F2ED8 /* AliyunVodPlayerSDK.framework in Embed Frameworks */,
+				AFBF919B2248A463007F2ED8 /* AliThirdparty.framework in Embed Frameworks */,
+				AFBF919F2248A463007F2ED8 /* AliyunPlayerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBF91A22248A475007F2ED8 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AFBF91A12248A475007F2ED8 /* AliyunLanguageSource.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF84E1EE20B7282F005387B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -38,6 +75,14 @@
 		AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBF2BF520439E2500AEBD25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFBF2C052043E69B00AEBD25 /* AIBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIBase.framework; sourceTree = "<group>"; };
+		AFBF91922248A1E8007F2ED8 /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliThirdparty.framework; sourceTree = "<group>"; };
+		AFBF91932248A1E8007F2ED8 /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AliyunLanguageSource.bundle; sourceTree = "<group>"; };
+		AFBF91942248A1E8007F2ED8 /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunVodPlayerSDK.framework; sourceTree = "<group>"; };
+		AFBF91952248A1E8007F2ED8 /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
+		AFBF91A32248A5F7007F2ED8 /* ExtendWebViewPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtendWebViewPlugin.h; sourceTree = "<group>"; };
+		AFBF91A42248A5F7007F2ED8 /* ExtendWebViewPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendWebViewPlugin.m; sourceTree = "<group>"; };
+		AFBF91A62248A8F2007F2ED8 /* VideoPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayVC.h; sourceTree = "<group>"; };
+		AFBF91A72248A8F2007F2ED8 /* VideoPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +91,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFBF2C062043E69B00AEBD25 /* AIBase.framework in Frameworks */,
+				AFBF919C2248A463007F2ED8 /* AliyunVodPlayerSDK.framework in Frameworks */,
+				AFBF91992248A1E8007F2ED8 /* AliyunPlayerSDK.framework in Frameworks */,
+				AFBF919A2248A463007F2ED8 /* AliThirdparty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,15 +134,31 @@
 		AFBF2BE520439E2500AEBD25 /* WMShell */ = {
 			isa = PBXGroup;
 			children = (
+				AFBF91912248A1E8007F2ED8 /* ali */,
 				AFA056BC209ADE7400297470 /* config */,
 				AFBF2BE620439E2500AEBD25 /* AppDelegate.h */,
 				AFBF2BE720439E2500AEBD25 /* AppDelegate.m */,
+				AFBF91A32248A5F7007F2ED8 /* ExtendWebViewPlugin.h */,
+				AFBF91A42248A5F7007F2ED8 /* ExtendWebViewPlugin.m */,
+				AFBF91A62248A8F2007F2ED8 /* VideoPlayVC.h */,
+				AFBF91A72248A8F2007F2ED8 /* VideoPlayVC.m */,
 				AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */,
 				AF96F77A2047A1A10097D273 /* Info.plist */,
 				AF96F77D2047A1E70097D273 /* InfoPlist.strings */,
 				AFBF2BF520439E2500AEBD25 /* main.m */,
 			);
 			path = WMShell;
+			sourceTree = "<group>";
+		};
+		AFBF91912248A1E8007F2ED8 /* ali */ = {
+			isa = PBXGroup;
+			children = (
+				AFBF91922248A1E8007F2ED8 /* AliThirdparty.framework */,
+				AFBF91932248A1E8007F2ED8 /* AliyunLanguageSource.bundle */,
+				AFBF91942248A1E8007F2ED8 /* AliyunVodPlayerSDK.framework */,
+				AFBF91952248A1E8007F2ED8 /* AliyunPlayerSDK.framework */,
+			);
+			path = ali;
 			sourceTree = "<group>";
 		};
 		AFFCE7C0209A420800539D76 /* Frameworks */ = {
@@ -115,6 +179,8 @@
 				AFBF2BDF20439E2500AEBD25 /* Sources */,
 				AFBF2BE020439E2500AEBD25 /* Frameworks */,
 				AFBF2BE120439E2500AEBD25 /* Resources */,
+				AFBF91A02248A464007F2ED8 /* Embed Frameworks */,
+				AFBF91A22248A475007F2ED8 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -175,6 +241,7 @@
 				AFA056BE209ADE7400297470 /* global.properties in Resources */,
 				AFB70F6121C9DB67006753C3 /* Default-812@3x.png in Resources */,
 				AF84E1F320B72830005387B8 /* Default-667@2x.png in Resources */,
+				AFBF91972248A1E8007F2ED8 /* AliyunLanguageSource.bundle in Resources */,
 				AFB70F6021C9DB67006753C3 /* modular-plugin-iOS.xml in Resources */,
 				AF84E1F220B72830005387B8 /* Default@2x.png in Resources */,
 				AF96F77F2047A1E70097D273 /* InfoPlist.strings in Resources */,
@@ -188,7 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBF91A52248A5F7007F2ED8 /* ExtendWebViewPlugin.m in Sources */,
 				AFBF2BF620439E2500AEBD25 /* main.m in Sources */,
+				AFBF91A82248A8F2007F2ED8 /* VideoPlayVC.m in Sources */,
 				AFBF2BE820439E2500AEBD25 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +405,11 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7DUX67X748;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/WMShell/ali",
 				);
 				INFOPLIST_FILE = WMShell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -362,9 +433,11 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7DUX67X748;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/WMShell/ali",
 				);
 				INFOPLIST_FILE = WMShell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
