@@ -8,17 +8,21 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.TypedValue;
 import android.widget.Toast;
 
 import com.ai.base.AIBaseActivity;
 import com.ai.webplugin.AIWebViewActivity;
 import com.ai.webplugin.config.GlobalCfg;
+import com.anoah.lock.ScreenLocker;
 
 import java.io.InputStream;
 
 public class EnterActivity extends AIBaseActivity {
+    private ScreenLocker locker;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +44,36 @@ public class EnterActivity extends AIBaseActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        String[] permissions = new String[]{Manifest.permission.CAMERA,
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.READ_PHONE_STATE,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                Manifest.permission.INTERNET };
+        checkPermission(permissions);
+
+        locker = new ScreenLocker(this);
+        locker.lock();
+    }
+
+    private void checkPermission(String[] str) {
+        if (Build.VERSION.SDK_INT >= 23) {
+            for (String mS : str) {
+                int checkCallPhonePermission = ContextCompat.checkSelfPermission(EnterActivity.this, mS);
+                if (checkCallPhonePermission != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(EnterActivity.this, str, 333);
+                    return;
+                } else {
+
+                }
+            }
+        } else {
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
     private void enterHomeActivity() {

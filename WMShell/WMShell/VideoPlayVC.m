@@ -24,7 +24,24 @@
     // Do any additional setup after loading the view.
     [self initPlayer];
     [self playerVideo];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setFrame:CGRectMake(20, 30, 40, 30)];
+    [btn setTitle:@"关闭" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(closePage) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
+
+- (void)closePage {
+    if ([_vodPlayer isPlaying]) {
+        [_vodPlayer stop];
+    }
+    [self dismissViewControllerAnimated:YES completion:^{
+        //
+    }];
+}
+
 
 - (void)initPlayer {
     //创建播放器对象，可以创建多个示例

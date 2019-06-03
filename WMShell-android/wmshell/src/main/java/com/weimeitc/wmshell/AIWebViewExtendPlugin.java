@@ -6,14 +6,24 @@ import android.webkit.WebView;
 
 import com.ai.base.AIBaseActivity;
 import com.ai.webplugin.AIWebViewBasePlugin;
+import com.anoah.lock.ScreenLocker;
 
 /**
  * author: wuyoujian
  * Date: 2018/12/19
  */
 public class AIWebViewExtendPlugin extends AIWebViewBasePlugin {
+    private ScreenLocker locker;
     public AIWebViewExtendPlugin(AIBaseActivity activity, WebView webView) {
         super(activity,webView);
+
+        locker = new ScreenLocker(activity);
+    }
+
+    public void JN_Unlock() {
+        if (locker != null) {
+            locker.unlock();
+        }
     }
 
     public void JN_QRcode() {

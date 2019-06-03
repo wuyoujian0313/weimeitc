@@ -20,12 +20,6 @@ android {
         }
     }
 
-    productFlavors {
-        wmshell {
-            applicationId "com.weimeitc.shell"
-            resValue "string", "app_name", "验收demo"
-        }
-    }
     lintOptions {
         checkReleaseBuilds false
         // Or, if you prefer, you can continue to check for errors in release builds,
@@ -43,8 +37,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.1.2'
     compile 'com.squareup.okio:okio:1.6.0'
     compile 'cn.bingoogolapple:bga-qrcode-zbar:1.2.1'
-
-    compile 'com.github.wuyoujian0313:aibase:1.0.3'
     testCompile 'junit:junit:4.12'
 
 

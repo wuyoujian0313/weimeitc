@@ -10,6 +10,30 @@ android {
             v1SigningEnabled true
             v2SigningEnabled true
         }
+
+        config2 {
+            keyAlias 'wmshell-cer2'
+            keyPassword '123456'
+            storeFile file('../wmshell-cer2.jks')
+            storePassword '123456'
+
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    productFlavors {
+        wmshell {
+            applicationId "com.weimeitc.shell"
+            resValue "string", "app_name", "应用1"
+            signingConfig signingConfigs.config
+        }
+
+        wmshell2 {
+            applicationId "com.weimeitc.shell2"
+            resValue "string", "app_name", "应用2"
+            signingConfig signingConfigs.config2
+        }
     }
 
     buildTypes {

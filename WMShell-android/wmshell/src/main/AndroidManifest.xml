@@ -41,7 +41,7 @@
         </provider>
         <activity
             android:name=".EnterActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="landscape"
             android:theme="@style/AppLauncher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -52,7 +52,7 @@
 
         <activity
             android:name="com.ai.webplugin.AIWebViewActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
