@@ -23,15 +23,15 @@ android {
     }
 
     productFlavors {
-        wmshell {
+        wmlogin {
             applicationId "com.weimeitc.shell"
-            resValue "string", "app_name", "应用1"
+            resValue "string", "app_name", "东方龙娃-login"
             signingConfig signingConfigs.config
         }
 
-        wmshell2 {
-            applicationId "com.weimeitc.shell2"
-            resValue "string", "app_name", "应用2"
+        wmapp {
+            applicationId "com.weimeitc.wmapp"
+            resValue "string", "app_name", "东方龙娃"
             signingConfig signingConfigs.config2
         }
     }
