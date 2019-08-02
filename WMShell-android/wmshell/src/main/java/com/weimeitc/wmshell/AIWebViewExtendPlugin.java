@@ -1,5 +1,7 @@
 package com.weimeitc.wmshell;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.webkit.ValueCallback;
 import android.webkit.WebView;
@@ -19,6 +21,12 @@ public class AIWebViewExtendPlugin extends AIWebViewBasePlugin {
 
         locker = new ScreenLocker(activity);
     }
+
+
+    public void JN_QuitApp() {
+        System.exit(0);
+    }
+
 
     public void JN_Unlock() {
         if (locker != null) {

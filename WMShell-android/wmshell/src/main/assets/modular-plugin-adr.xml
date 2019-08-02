@@ -26,4 +26,5 @@
     <action name="JN_Play" class="com.weimeitc.wmshell.AIWebViewExtendPlugin"></action>
     <action name="JN_UniqueIdentifier" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
     <action name="JN_Unlock" class="com.weimeitc.wmshell.AIWebViewExtendPlugin"></action>
+    <action name="JN_QuitApp" class="com.weimeitc.wmshell.AIWebViewExtendPlugin"></action>
 </plugins>

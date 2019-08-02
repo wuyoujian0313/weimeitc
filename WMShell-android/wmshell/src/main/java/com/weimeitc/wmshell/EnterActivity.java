@@ -89,10 +89,10 @@ public class EnterActivity extends AIBaseActivity {
         try {
             GlobalCfg globalCfg = GlobalCfg.getInstance();
             String flavor = BuildConfig.FLAVOR;
-            if (flavor.equalsIgnoreCase("AIPlan")) {
-                intent.putExtra(AIWebViewActivity.webViewURLKey,globalCfg.attr("online.addr"));
-            } else {
-                intent.putExtra(AIWebViewActivity.webViewURLKey,globalCfg.attr("online.addrTest"));
+            if (flavor.equalsIgnoreCase("wmlogin")) {
+                intent.putExtra(AIWebViewActivity.webViewURLKey,globalCfg.attr("online.addr.login"));
+            } else  {
+                intent.putExtra(AIWebViewActivity.webViewURLKey,globalCfg.attr("online.addr.app"));
             }
 
             startActivity(intent);
