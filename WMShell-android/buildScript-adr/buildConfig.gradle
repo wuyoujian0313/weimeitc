@@ -20,6 +20,16 @@ android {
             v1SigningEnabled true
             v2SigningEnabled true
         }
+
+        config3 {
+            keyAlias 'wmshell-cer3'
+            keyPassword '123456'
+            storeFile file('../wmshell-cer3.jks')
+            storePassword '123456'
+
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
     }
 
     productFlavors {
@@ -34,18 +44,24 @@ android {
             resValue "string", "app_name", "东方龙娃"
             signingConfig signingConfigs.config2
         }
+
+        wmdingapp {
+            applicationId "com.weimeitc.wmdingapp"
+            resValue "string", "app_name", "鼎盛"
+            signingConfig signingConfigs.config3
+        }
     }
 
     buildTypes {
         release {
-            signingConfig signingConfigs.config
+            signingConfig signingConfigs.config3
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             debuggable false
         }
 
         debug {
-            signingConfig signingConfigs.config
+            signingConfig signingConfigs.config3
             debuggable true
         }
     }

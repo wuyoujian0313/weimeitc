@@ -91,8 +91,10 @@ public class EnterActivity extends AIBaseActivity {
             String flavor = BuildConfig.FLAVOR;
             if (flavor.equalsIgnoreCase("wmlogin")) {
                 intent.putExtra(AIWebViewActivity.webViewURLKey,globalCfg.attr("online.addr.login"));
-            } else  {
+            } else if(flavor.equalsIgnoreCase("wmapp"))  {
                 intent.putExtra(AIWebViewActivity.webViewURLKey,globalCfg.attr("online.addr.app"));
+            } else if(flavor.equalsIgnoreCase("wmdingapp")) {
+                intent.putExtra(AIWebViewActivity.webViewURLKey,globalCfg.attr("online.addr.dingapp"));
             }
 
             startActivity(intent);
